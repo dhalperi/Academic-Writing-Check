@@ -28,6 +28,9 @@ t[Hh][zZ]
 reason[^.?!]*is\s+because
 # "N times less" -> "one Nth as much"      (former doesn't make sense)
 times\s+less
+# "the whole comprises the parts"
+is\w+comprised\w+of
+comprise[^s]
 #
 # common spellcheck errors : 
 # this might be get out of user word list and become default if 
